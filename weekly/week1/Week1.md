@@ -1,4 +1,4 @@
-### Week 1
+### Week 1 - 8-10 Jan
 
 This week I spent looking at potential image quality assessment (IQA) libraries to use in the thesis. When testing a library, I used a sample dataset consisting of roughly 100 images taken from the data set `DeepLearning_Winter23_Collection10_Drive11_HilantiePohjoiseen`. I also included a few calibration images, some of whom were very sharp and others very blurry.
 
@@ -41,13 +41,15 @@ BRISQUE, originally developed in this [paper](https://live.ece.utexas.edu/public
 
 First, I tried to run BRISQUE in using the pyIQA module which implements many IQA methods in python. The results using this method wasn't great. BRISQUE is supposed to generate a score from 0-100 whereas many images got scores below 0.
 
-This could be due to the default model used in the internal BRISQUE function not having seen images that are remotely close to the images from the sample dataset. However, that seems strange considering that I got a negative value even when calculating the score for a sharp image of a tree.
+This could be due to the default model used in the internal BRISQUE function not having seen images that are remotely close to the images from the sample dataset. However, that seems strange considering that I got a negative value even when calculating the score for a sharp image of a tree. It's also possible that it's the noise in the images that's causing the negative values. In this [issue](https://github.com/opencv/opencv_contrib/issues/2226), a quite noisy image gets a result of -12 and when denoised, the score jumps up to about 50.
 
 I then tried the `open-cv-contrib` module which also has an implementation of BRISQUE. The results were unfortunately not much better. I got BRISQUE values of 0 for all images in the sample dataset apart from 1. However, I did get actual results when running the code on the calibration images.
 
 Lastly, I tried the Matlab implementation of BRISQUE and could finally get some good results.
 
 The calibration images got sensible results with blurry images getting high scores of 64 and 49 while sharp images got scores of 7, 9, 25, and 29. The images from the sample dataset also got sensible scores ranging from 18-40.
+
+**I've learned now that while the regular implementation of BRISQUE in pyiqa spits out weird results, there is a matlab_brisque option in pyiqa which provides good results. In fact, it gives almost the same results as the ones seen below.**
 
 ```
 BRISQUE score for BlurryDavid.jpg image is: 64.8346
