@@ -6,3 +6,7 @@
 * [Code](Code/code.md)
 * [Related work](Related_work/related_work.md)
 * [Ideas and questions](Ideas/ideas.md)
+* [Related work](Related_work/related.md)
+
+## Links
+[Links](Links.md)
