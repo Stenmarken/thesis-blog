@@ -1,1 +1,2 @@
 * [List of IQA papers with code](https://github.com/chaofengc/Awesome-Image-Quality-Assessment?tab=readme-ov-file)
+* [Repo implementing SOTA method for adding rain to images](https://github.com/astra-vision/rain-rendering?tab=readme-ov-file)

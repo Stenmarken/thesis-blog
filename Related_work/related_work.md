@@ -6,3 +6,4 @@
 * [No-Reference Quality Assessment for 3D Colored Point Cloud and Mesh Models](point-cloud-quality-assessment-dataset.md)
 * [Rethinking LiDAR Object Detection in adverse weather conditions](rethinking_LiDAR_Object.md)
 * [Deep Learning Based Image Quality Assessment: A Survey](deep_learning_iqa_survey.md)
+* [D2.2 DL safety architectural patterns and platform](D2.2_DL_safety_architectural_patterns_and_platform.md)
