@@ -62,3 +62,60 @@ It's possible to create snowy landscapes, clouds, fog, rain, and snowflakes on i
 just like in Albumentations. From what I've read, you can basically do the same things
 in imgaug that you can in Albumentations but that Albumentations is faster. 
 
+### Evaluating IQA metrics on Albumentations
+Using Albumentations, I created two datasets based on the following image
+![1.png](../../Code/1.png)
+
+For the first dataset, I generated 100 images and progressively added more rain and reduced the brightness for each image. The first image, `0.png` barely had any rain and was quite bright and the last image, `99.png` had heavy rain and was significantly darker. 
+
+I generated the second dataset by repeating the approach but used fog instead of rain.
+
+The two generated datasets can be seen [here](https://drive.google.com/drive/u/0/folders/155pY1k8fm-afJmyVYLT5yO7qpStZbsqg) and [here](https://drive.google.com/drive/u/0/folders/1_zXvPNkyUc5EhJJvQxgU025B5fi9QcWn).
+
+With this data, I ran every metric in `pyiqa` that I could get working and stored the results. This generated a large dictionary of dictionaries where the outer keys are metric names and the values are dictionaries mapping file names to scores. 
+
+There are many ways of interpreting the results and I began with a rather naive implementation. I evaluated each metric by counting the number of correct rankings that it got. For instance, if the metric `hyperiqa` classified `0.png` to be the best, `1.png` to be the second best, and then incorrectly ranked all other images, then `hyperiqa` would get the score `2/100 = 0.02`. This is of course a non-optimal solution since it doesn't account for how close a ranking is to the correct one. Nonetheless, working with this implementation I got the results that can be seen [here](https://drive.google.com/drive/u/0/folders/1_zXvPNkyUc5EhJJvQxgU025B5fi9QcWn) and [here](https://drive.google.com/drive/u/0/folders/155pY1k8fm-afJmyVYLT5yO7qpStZbsqg). You can also see a shortened form of the results below.
+
+```python
+{
+    "wadiqam_nr": 1.0,
+    "arniqa-live": 0.32,
+    "topiq_nr-flive": 0.31,
+    "dbcnn": 0.3,
+    "arniqa-csiq": 0.26,
+    "topiq_iaa_res50": 0.24,
+    "arniqa-flive": 0.23,
+    "liqe_mix": 0.2,
+    "nrqm": 0.19,
+    "clipiqa+_rn50_512": 0.17,
+    "tres-flive": 0.17,
+    "arniqa-kadid": 0.15,
+}
+```
+**Rainy**
+```python
+{
+    "topiq_nr-spaq": 0.94,
+    "wadiqam_nr": 0.73,
+    "nima-spaq": 0.61,
+    "nrqm": 0.58,
+    "dbcnn": 0.43,
+    "topiq_nr-flive": 0.43,
+    "maniqa-kadid": 0.4,
+    "cnniqa": 0.35,
+    "nima-koniq": 0.34,
+    "topiq_iaa": 0.34,
+    "topiq_nr": 0.27,
+    "arniqa-spaq": 0.25,
+    "ilniqe": 0.22,
+    "unique": 0.22,
+    "arniqa-csiq": 0.21,
+}
+```
+**Foggy**
+
+Amazingly, `wadiqam_nr` got all of the rankings for the rainy images correct. It was so good that I double-checked its results to make sure that there wasn't a bug anywhere. It didn't perform as good on foggy images but still was second out of all metrics. Interestingly, `topiq_nr-spaq` performed best out of all metrics on foggy images but was fourth to last in performance on rainy images.
+
+I should note that there are a few SOTA models missing in these results. Q-Align and Musiq are two recent model architectures for IQA that are supposed to have great performance. I tried including them in my code but I got problems with out of memory errors in Torch. The same thing happened when I ran them using the free version in Colab. I might upgrade to Colab+ to get more RAM.
+
+The next thing I want to do is finding more sophisticated evaluation tools then my simple naive evaluation. I also want to find ways of running some of the other IQA models. 
