@@ -1,3 +1,9 @@
+---
+title: "Idk"
+date: 2023-10-01
+use_math: true
+---
+
 ## Week 4 - 27-31 Jan
 
 ### SPRC
