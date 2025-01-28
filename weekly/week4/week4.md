@@ -1,10 +1,6 @@
----
-title: "Idk"
-date: 2023-10-01
-use_math: true
----
-
 ## Week 4 - 27-31 Jan
+
+**The math doesn't seem to render in Github Pages. See this Github [link](https://github.com/Stenmarken/thesis-blog/blob/main/weekly/week4/week4.md) for working rendering**
 
 ### SPRC
 Having got the results from the IQA metrics on the rainy and foggy images, it's time to start analysing them.
