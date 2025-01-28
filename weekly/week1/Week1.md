@@ -1,4 +1,4 @@
-### Week 1 - 8-10 Jan
+## Week 1 - 8-10 Jan
 
 This week I spent looking at potential image quality assessment (IQA) libraries to use in the thesis. When testing a library, I used a sample dataset consisting of roughly 100 images taken from the data set `DeepLearning_Winter23_Collection10_Drive11_HilantiePohjoiseen`. I also included a few calibration images, some of whom were very sharp and others very blurry.
 

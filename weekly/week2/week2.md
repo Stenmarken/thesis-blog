@@ -1,4 +1,4 @@
-### Week 2 - 13-17 January
+## Week 2 - 13-17 January
 
 In this week, I'll continue to look at some IQA repos and methods.
 

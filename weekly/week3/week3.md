@@ -1,6 +1,6 @@
-### Week 3 - 20-24 January
+## Week 3 - 20-24 January
 
-#### Libraries for image distortions
+### Libraries for image distortions
 Last week I tinkered with the `imagecorruptions` library in python to create distorted images. 
 It's quite a nice library since it can add noise that occur in images taken by 
 AV sensors. It can add motion, defocus, and zoom blurs as well as add 
