@@ -14,7 +14,7 @@ I decided to look at some alternatives to `imagecorruptions` and see
 if those offered this feature. Here are some alternatives:
 
 #### Wand
-Wand is a python-binding for ImageMagick, a tool for editing 
+[Wand](https://docs.wand-py.org/en/0.6.12/) is a python-binding for ImageMagick, a tool for editing 
 and manipulating digital images. It has many features for distorting 
 images but they consist mainly of mathematical functions. It's possible 
 to do affine transformations, scalings, rotations, translations, and rezizings. 
@@ -31,7 +31,7 @@ It might be the case that all the noise types can be implemented
 using just `cv2`, `numpy`, and `pillow`.
 
 #### Albumentations
-Albumentations is a library meant for creating image augmentation pipelines.
+[Albumentations](https://albumentations.ai/) is a library meant for creating image augmentation pipelines.
 It has many possibilities when it comes to adding noise including ones for weather
 related noise. You can add snow, rain, fog, sunflares, and change the brightness plus
 contrast. This is all great but the library is stochastic at its core meaning that
@@ -52,12 +52,12 @@ I might also just use the basic version of the library and disregard the fact th
 The quality is the same, it's just that the raindrops appear in slightly different positions.
 
 #### AugLy
-AugLy is an augmentation library that can be used for text, image, and video data.
+[AugLy](https://github.com/facebookresearch/AugLy) is an augmentation library that can be used for text, image, and video data.
 However, I don't see an easy way of adding weather related noise so I won't investigate
 this library further.
 
 #### imgaug
-imgaug is a python augmentation library that in many ways are similar to Albumentations.
+[imgaug](https://imgaug.readthedocs.io/en/latest/index.html) is a python augmentation library that in many ways are similar to Albumentations.
 It's possible to create snowy landscapes, clouds, fog, rain, and snowflakes on images
 just like in Albumentations. From what I've read, you can basically do the same things
 in imgaug that you can in Albumentations but that Albumentations is faster. 
