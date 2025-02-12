@@ -1,0 +1,5 @@
+### Comparison of No-Reference Image Quality Models via MAP Estimation in Diffusion Latents
+
+Link: https://arxiv.org/pdf/2403.06406v1
+
+This paper looks at a way of comparing NR-IQA techniques by measuring their capacity to enhance images. Different NR-IQA methods yield different enhanced images which are used to used to compare the models. This can be worth exploring as calculating SRCC and Kendall's tau are the only two ways I currently have of assessing image quality. However, the authors haven't published their code so it would be hard to use their work.

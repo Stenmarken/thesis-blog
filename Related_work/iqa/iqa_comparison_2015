@@ -1,0 +1,5 @@
+### Comparison of No-Reference Image Quality Assessment Machine Learning-based Algorithms on Compressed Images
+
+Link: https://hal.science/hal-01286903/document
+
+In this paper, the authors compare 7 different IQA methods on common publicly available datasets. In addition to comparing the results of base models, they also perform custom training of machine learning models to try to boost the performance. They use the SROCC coefficient to measure their results. This will be a key reference in the related work section. It's worth noting that the study was conducted in 2015.

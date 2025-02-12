@@ -8,3 +8,6 @@
 * [D2.2 DL safety architectural patterns and platform](D2.2_DL_safety_architectural_patterns_and_platform.md)
 * [Review of Image Quality Assessment Methods for Compressed Images](review_iqa.md)
 * [No-Reference Image Quality Assessment Using the Statistics of Global and Local Image](statistics_global_local_image.md)
+* [A Survey on Autonomous Driving Datasets: Statistics, Annotation Quality, and a Future Outlook](survey_on_autonomous_driving_datasets.md)
+* [An Overview of Autonomous Vehicles Sensors and Their Vulnerability to Weather Conditions](overview_sensors_weather.md)
+* [nuScenes](nuScenes.md)
