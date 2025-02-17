@@ -60,4 +60,4 @@ It looks okay but unlike Rerun, it's not easy to see point cloud data over time.
 It's possible to visualize things in Open3D directly but this is just like using Rerun with more headache. You see the same stuff and have to more of the configuring yourself.
 
 #### Webwiz
-[Webwiz](https://webviz.io/) also works with ROS data which is a bit of a hassle. I would then have to go through the same procedure as for RViz. I'm also not sure that Webwiz offers any functionality that Rerun doesn't. 
+[Webwiz](https://webviz.io/) also works with ROS data which is a bit of a hassle. I tried using the online version of the app but that didn't work unfortunately. I didn't look into Webviz a whole lot since it seems to be very similar to Rerun. So does Foxglove, which began as a fork from Webwiz and offers roughly the same service.
