@@ -4,7 +4,8 @@
 * [Week 3](weekly/week3/week3.md)
 * [Week 4](weekly/week4/week4.md)
 * [Week 6](weekly/week6/week6.md)
-
+* [Week 7](weekly/week7/week7.md)
+  
 ## Other
 * [Code](Code/code.md)
 * [Related work](Related_work/related_work.md)
