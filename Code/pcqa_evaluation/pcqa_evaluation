@@ -1,0 +1,20 @@
+### PCQA evaluation on GPU server
+
+#### Setting up the GPU server
+This was a fairly easy process where all of the instructions were clearly visible on the ICE website. One tricky thing to configure was getting stuff on and off the server from my local compute. With some configuring I got the following command to work well: `scp -P port_number -i secret_key.pem  file_to_transfer name@ip:/path/to/destination`.
+
+Another problem I had was with getting OpenGL to work. OpenGL's `Visualizer` module requires an OpenGL-compatible display which is hard when I only have a server available. Fortunately, I could simply install `xvfb`, a virtual display server that allows programs that typically require a graphical environment to run on machines without a physical display. With this command I could run the PCQA methods using the following command: `xvfb-run -a python3 pcqa_script.py`.
+
+Point cloud used: "../../../repos/pcqa-assessment/output/RTB_Lidar_All/000001.pcd"
+
+#### MM-PCQA
+To run the metric on one point cloud, I had to run the command: `xvfb-run -a python3 test_single_ply.py --objname point_clouds/RTB_Lidar_All_000001.ply --ckpt_path model_files/WPC.pth`.
+
+WPC.pth is the standard model downloaded from OneDrive. 
+
+The resulting quality score using the `WPC.pth` model is -37.18694305419922
+
+#### IT-PCQA
+IT-PCQA can only evalaute images and point clouds jointly. As one of the authors explain in this GitHub [issue](https://github.com/Qi-Yangsjtu/IT-PCQA), there is no way of obtaining the score of just a point cloud.
+
+#### LMM-PCQA
