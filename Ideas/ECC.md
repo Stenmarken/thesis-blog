@@ -2,11 +2,11 @@
 
 Setting up a virtual GPU server using ECC was surprisingly easy. 
 
-You can deploy it in the GUI on the ICE website and once that's done you have download an SSH key which you then use to connect to the server. This is the command to run to access the server
+You can deploy it in the GUI on the ICE website and once that's done you download an SSH key which you use to connect to the server. The following command is used to connect:
 
 ```ssh -i private-ssh-key.pem -p [ssh_port] [username]@[ssh_ip]```
 
-The `ssh-port` and `ssh_ip` can both be found in the GUI on RISE. The username was in my case `ubuntu`. The `private-ssh-key` file is the done downloaded under the security tab.
+The `ssh-port` and `ssh_ip` can both be found in the GUI on RISE. The username was in my case `ubuntu` and the `private-ssh-key` file is the one downloaded from the security tab.
 
 Installing nvidia drivers is also quite easy. The instructions can be found [here](https://pages.ice.ri.se/ice/documentation/ecc/gpu-servers/).
 
