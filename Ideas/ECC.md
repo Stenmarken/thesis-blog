@@ -12,4 +12,3 @@ Installing nvidia drivers is also quite easy. The instructions can be found [her
 
 One thing to note is that ECC works in a way where you pay for the time that you have the hardware reserved. So if you have created a server and it is turned off, you will still be charged by the hour. Pricing depends on the specs of the hardware, the dummy server I set up cost about 2.9 kr/hr.
 
-
