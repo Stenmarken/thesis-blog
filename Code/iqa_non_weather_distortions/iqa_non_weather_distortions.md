@@ -38,11 +38,11 @@ Both `brightness_limit` and `contrast_limit` assumes a value in the range `[-1, 
 
 | ![contrast_6.png](contrast_6.png) |
 | :-------------------------------: |
-|       _Added contrast 0.6_        |
+|       _Added contrast -0.4_       |
 
 | ![contrast_12.png](contrast_12.png) |
 | :---------------------------------: |
-|        _Added contrast 0.8_         |
+|        _Added contrast -0.8_        |
 
 ### Running the IQA metrics
 
