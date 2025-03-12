@@ -36,7 +36,7 @@ The distortions seem to work rather well. The fog distortions cause points to ap
 
 There are also some issues with the fog particles changing rapidly over time. During some timestamps, the `light` fog looks very similar to the `undistorted` point cloud (see the picture of the `light` fog) only for it in the next timestamp to have a bunch of fog particles in front of the vehicle. It's possible to see this in action at this [link](https://drive.google.com/drive/u/0/folders/1hgRfwG5Oup-RjSe7DjTPg4_NTosy7ItI).
 
-This venture leaves me with two questions:
+This process leaves me with two questions:
 
 1. How difficult is it to create more than three severities of noise?
 2. How serious is it that the distortions are not consistent for different point clouds?
