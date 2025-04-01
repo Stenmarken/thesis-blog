@@ -85,7 +85,7 @@ The way equation 1 works is that it calculates the intensity for the soft target
 
 There are three important configuration variables here: attenuation coefficient ($\alpha$), backscattering coefficient ($\beta$), and the differential reflectivity ($\beta_0$). Attenuation is the effect of the light scattering or being absorbed by the fog/rain particles in the air. A higher $\alpha$ means that more light is being absorbed/scattered. The way Robo3D implements it is that the attenuation coefficient is uniformly sampled from `[0, 0.005, 0.01, 0.02, 0.03, 0.06]`. I have to make sure that when I am distorting the point clouds, that I have the same $\alpha$ for the same point cloud at different distortion levels. Backscattering is when fog particles/rain particles cause the signal to reflect meaning that we register a "false" point in the point cloud. $\beta$ is a coefficient for how much backscattering occurs. Differential reflectivity is a measure of the variation of reflectivity based on factors like wavelength, polarization, and the angle of incidence. This is perhaps also something I have to consider in my calculations. The standard in the code is just to have it set to $3.1830988618379064e-07$.
 
-CANNOT HAVE IT SO THAT ALPHA IS VARYING RANDOMLY. EVEN WITH SEEDING THE RANDOMNESS WILL CAUSE PROBLEMS BECAUSE RIGHT NOW IT READS THE FILES IN A NON-DETERMINISTIC ORDER.
+Note that having $\alpha$ vary randomly is not good as it will provide non-deterministic results. Seeding the randomness also won't work as it's not deterministic in what exact order the point clouds are distorted. The reason for this has to with multi-threading being ultimately non-deterministic.
 
 #### Increasing the number of distortions
 
@@ -99,3 +99,38 @@ In `generate_integral_lookup_table.py`, it has this statement:
 One weird thing is that in `fog_simulation.py`, `simulate_fog` is called with `noise` being set to `10` which is then used in `P_R_fog_soft`. This is done without any explanation. However, in `generate_integral_lookup_table.py`, it lacks a parameter for the `noise` when calling `P_R_fog_soft`, so I set that parameter to 10.
 
 Nevermind, the problem is bigger. Calling the `P_R_fog_soft` from `generate_integral_lookup_table.py` requires a bunch of extra info. This might be difficult.
+
+### Figuring out why Robo3D works but not LiDAR_fog_sim
+
+The limitation of Robo3D only having three severity levels and the difficulty in generating more made me look elsewhere for LiDAR distortion code. Fortunately I found LiDAR_fog_sim, a tool for synthetically distorting point clouds with fog. It was also when looking at LiDAR_fog_sim when I realized that the Robo3D guys had simply used the code from LiDAR_fog_sim in their fog generation.
+
+Robo3D and LiDAR_fog_sim are a bit different when it comes to fog generation. As previously mentioned, Robo3D increases the fog severity by increasing the backscattering coefficient $\beta$ while letting the attenuation coefficient $\alpha$ vary randomly (for each point cloud). LiDAR_fog_sim on the other hand has a fixed $\beta$ of $0.046 / (\text{np.log(20)} / 0.06) = 0.0009$ but increases fog severity by having a larger $\alpha$ value. Interestingly enough, the $\beta$ value is dependent on $\alpha$, however in the constructor, it sets $\alpha = 0.06$, then performs the calculation of $\beta$ and after that updates $\alpha$ to be what was inputted to the constructor. This means that the $\beta$ value is the same regardless of what $\alpha$ is.
+
+I would like to try setting the same $\alpha$ and the same $\beta$ in LiDAR_fog_sim as in Robo3D and see that I get the same distorted point cloud out. The thing is that I don't understand how these precomputed integrals work and how they relate to different values of $\alpha$ and $\beta$.
+
+#### How does a precomputed integral work?
+
+Let's dig into the respective papers of Robo3D and LiDAR_fog_sim to understand how the precomptued integrals work. The integrals are calculated numerically as there is no closed form expression for them. They're used in the calculation of the attenuated fog response. The integral can be seen here:
+
+![images/P_R_soft.png](images/P_R_soft.png)
+
+As can be seen in the formula, the integral depends on $\alpha$ but not on $\beta$. This should hopefully mean that for different levels of $\beta$ but the same $\alpha$, I can use the same precomputed integral. This fact is also supported by the fact that when I run the following `diff` command, I get no difference:
+
+```
+diff integral_lookup_tables_seg_heavy_0.2beta/original/integral_0m_to_200m_stepsize_0.1m_tau_h_20ns_alpha_0.01.pickle integral_lookup_tables_seg_moderate_0.05beta/original/integral_0m_to_200m_stepsize_0.1m_tau_h_20ns_alpha_0.01.pickle
+```
+
+The files are from Robo3D and are computed using different beta values but the same alpha values. At the same time, in the integral generation of LiDAR_fog_sim, it doesn't just calculate the integral but the entire value of P_R_Soft which includes the value of $\beta$. How can the files then be equal if they are calculated with different $\beta$ values?
+
+#### Weird results from the LiDAR_fog_sim
+
+Even though LiDAR_fog_sim is used in Robo3D (which works fine), I cannot get it's distortions to work properly. For some reason, the point clouds become very strange and some points get way off. Of course, there is an option to simply generate distorted point clouds using Robo3D and progressively increase $\beta$ and leave $\alpha$ as it is. This is a bit unsatisfactory though as both $\beta$ and $\alpha$ should increase as it gets foggier (I'm assuming). Another option is to use the `theory` module in Lidar_fog_sim and simply copy that over to Robo3D and generate the integration tables for different values of alpha.
+
+Going off that option seems to me the best, I've now copied the `theory` function to the Robo3D and that seems to get the `generate_integral_lookup_table.py` working. What I need to consider now is how to set $\alpha$ and $\beta$ for my point clouds. Perhaps I first have to understand why Robo3D and Lidar_fog_sim randomly sample $\alpha$ from `[0, 0.005, 0.01, 0.02, 0.03, 0.06]`. Furthermore, I have to understand whether or not I should decouple $\beta$ from $\alpha$ and only let the severity be determined by $\alpha$. The other option is to do what the LiDAR_fog_sim guys are doing and setting
+
+$$\beta = \frac{0.046}{\ln(20) / \alpha}$$
+
+Let's start with figuring out why LiDAR_fog_sim randomly samples $\alpha$. They don't provide any good explanation for why they do this in the thesis. I think the reason why they do it is simply to have some randomness in the training data when training their model to recognize objects in their foggy point clouds.
+
+I'll now generate versions of the same point cloud where I only differ the attenuation coefficient $\alpha$ and use the following formula to calculate beta. I'll see what kind of point clouds that generates.
+$$\beta = \frac{0.046}{\ln(20) / \alpha}$$
