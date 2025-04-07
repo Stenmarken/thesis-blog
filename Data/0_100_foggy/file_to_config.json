@@ -1,0 +1,802 @@
+{
+    "0.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.0,
+        "alpha_coef": 0.5,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "1.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.010101010101010102,
+        "alpha_coef": 0.5050505050505051,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "2.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.020202020202020204,
+        "alpha_coef": 0.51010101010101,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "3.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.030303030303030304,
+        "alpha_coef": 0.5151515151515151,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "4.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.04040404040404041,
+        "alpha_coef": 0.5202020202020202,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "5.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.05050505050505051,
+        "alpha_coef": 0.5252525252525253,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "6.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.06060606060606061,
+        "alpha_coef": 0.5303030303030303,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "7.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.07070707070707072,
+        "alpha_coef": 0.5353535353535354,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "8.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.08080808080808081,
+        "alpha_coef": 0.5404040404040404,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "9.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.09090909090909091,
+        "alpha_coef": 0.5454545454545454,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "10.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.10101010101010102,
+        "alpha_coef": 0.5505050505050505,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "11.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.11111111111111112,
+        "alpha_coef": 0.5555555555555556,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "12.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.12121212121212122,
+        "alpha_coef": 0.5606060606060606,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "13.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.13131313131313133,
+        "alpha_coef": 0.5656565656565656,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "14.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.14141414141414144,
+        "alpha_coef": 0.5707070707070707,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "15.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.15151515151515152,
+        "alpha_coef": 0.5757575757575758,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "16.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.16161616161616163,
+        "alpha_coef": 0.5808080808080808,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "17.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.17171717171717174,
+        "alpha_coef": 0.5858585858585859,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "18.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.18181818181818182,
+        "alpha_coef": 0.5909090909090909,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "19.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.19191919191919193,
+        "alpha_coef": 0.595959595959596,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "20.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.20202020202020204,
+        "alpha_coef": 0.601010101010101,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "21.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.21212121212121213,
+        "alpha_coef": 0.6060606060606061,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "22.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.22222222222222224,
+        "alpha_coef": 0.6111111111111112,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "23.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.23232323232323235,
+        "alpha_coef": 0.6161616161616161,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "24.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.24242424242424243,
+        "alpha_coef": 0.6212121212121212,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "25.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.25252525252525254,
+        "alpha_coef": 0.6262626262626263,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "26.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.26262626262626265,
+        "alpha_coef": 0.6313131313131313,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "27.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.27272727272727276,
+        "alpha_coef": 0.6363636363636364,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "28.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.2828282828282829,
+        "alpha_coef": 0.6414141414141414,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "29.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.29292929292929293,
+        "alpha_coef": 0.6464646464646464,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "30.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.30303030303030304,
+        "alpha_coef": 0.6515151515151515,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "31.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.31313131313131315,
+        "alpha_coef": 0.6565656565656566,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "32.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.32323232323232326,
+        "alpha_coef": 0.6616161616161617,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "33.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.33333333333333337,
+        "alpha_coef": 0.6666666666666667,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "34.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.3434343434343435,
+        "alpha_coef": 0.6717171717171717,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "35.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.3535353535353536,
+        "alpha_coef": 0.6767676767676768,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "36.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.36363636363636365,
+        "alpha_coef": 0.6818181818181819,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "37.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.37373737373737376,
+        "alpha_coef": 0.6868686868686869,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "38.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.38383838383838387,
+        "alpha_coef": 0.6919191919191919,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "39.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.393939393939394,
+        "alpha_coef": 0.696969696969697,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "40.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.4040404040404041,
+        "alpha_coef": 0.702020202020202,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "41.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.4141414141414142,
+        "alpha_coef": 0.7070707070707071,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "42.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.42424242424242425,
+        "alpha_coef": 0.7121212121212122,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "43.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.43434343434343436,
+        "alpha_coef": 0.7171717171717171,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "44.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.4444444444444445,
+        "alpha_coef": 0.7222222222222222,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "45.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.4545454545454546,
+        "alpha_coef": 0.7272727272727273,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "46.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.4646464646464647,
+        "alpha_coef": 0.7323232323232324,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "47.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.4747474747474748,
+        "alpha_coef": 0.7373737373737375,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "48.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.48484848484848486,
+        "alpha_coef": 0.7424242424242424,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "49.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.494949494949495,
+        "alpha_coef": 0.7474747474747475,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "50.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5050505050505051,
+        "alpha_coef": 0.7525252525252526,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "51.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5151515151515152,
+        "alpha_coef": 0.7575757575757576,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "52.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5252525252525253,
+        "alpha_coef": 0.7626262626262627,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "53.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5353535353535354,
+        "alpha_coef": 0.7676767676767677,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "54.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5454545454545455,
+        "alpha_coef": 0.7727272727272727,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "55.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5555555555555556,
+        "alpha_coef": 0.7777777777777778,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "56.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5656565656565657,
+        "alpha_coef": 0.7828282828282829,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "57.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5757575757575758,
+        "alpha_coef": 0.7878787878787878,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "58.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.5858585858585859,
+        "alpha_coef": 0.7929292929292929,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "59.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.595959595959596,
+        "alpha_coef": 0.797979797979798,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "60.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6060606060606061,
+        "alpha_coef": 0.803030303030303,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "61.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6161616161616162,
+        "alpha_coef": 0.8080808080808082,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "62.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6262626262626263,
+        "alpha_coef": 0.8131313131313131,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "63.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6363636363636365,
+        "alpha_coef": 0.8181818181818182,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "64.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6464646464646465,
+        "alpha_coef": 0.8232323232323233,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "65.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6565656565656566,
+        "alpha_coef": 0.8282828282828283,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "66.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6666666666666667,
+        "alpha_coef": 0.8333333333333334,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "67.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.6767676767676768,
+        "alpha_coef": 0.8383838383838385,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "68.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.686868686868687,
+        "alpha_coef": 0.8434343434343434,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "69.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.696969696969697,
+        "alpha_coef": 0.8484848484848485,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "70.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7070707070707072,
+        "alpha_coef": 0.8535353535353536,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "71.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7171717171717172,
+        "alpha_coef": 0.8585858585858586,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "72.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7272727272727273,
+        "alpha_coef": 0.8636363636363636,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "73.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7373737373737375,
+        "alpha_coef": 0.8686868686868687,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "74.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7474747474747475,
+        "alpha_coef": 0.8737373737373737,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "75.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7575757575757577,
+        "alpha_coef": 0.8787878787878789,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "76.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7676767676767677,
+        "alpha_coef": 0.8838383838383839,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "77.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.7777777777777778,
+        "alpha_coef": 0.8888888888888888,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "78.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.787878787878788,
+        "alpha_coef": 0.893939393939394,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "79.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.797979797979798,
+        "alpha_coef": 0.898989898989899,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "80.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8080808080808082,
+        "alpha_coef": 0.9040404040404041,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "81.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8181818181818182,
+        "alpha_coef": 0.9090909090909092,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "82.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8282828282828284,
+        "alpha_coef": 0.9141414141414141,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "83.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8383838383838385,
+        "alpha_coef": 0.9191919191919192,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "84.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8484848484848485,
+        "alpha_coef": 0.9242424242424243,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "85.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8585858585858587,
+        "alpha_coef": 0.9292929292929293,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "86.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8686868686868687,
+        "alpha_coef": 0.9343434343434344,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "87.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8787878787878789,
+        "alpha_coef": 0.9393939393939394,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "88.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.888888888888889,
+        "alpha_coef": 0.9444444444444444,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "89.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.8989898989898991,
+        "alpha_coef": 0.9494949494949496,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "90.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9090909090909092,
+        "alpha_coef": 0.9545454545454546,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "91.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9191919191919192,
+        "alpha_coef": 0.9595959595959596,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "92.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9292929292929294,
+        "alpha_coef": 0.9646464646464648,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "93.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9393939393939394,
+        "alpha_coef": 0.9696969696969697,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "94.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9494949494949496,
+        "alpha_coef": 0.9747474747474748,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "95.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9595959595959597,
+        "alpha_coef": 0.9797979797979799,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "96.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9696969696969697,
+        "alpha_coef": 0.9848484848484849,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "97.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.9797979797979799,
+        "alpha_coef": 0.98989898989899,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "98.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 0.98989898989899,
+        "alpha_coef": 0.994949494949495,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    },
+    "99.png": {
+        "fog_particle_share": 0.7,
+        "fog_intensity": 1.0,
+        "alpha_coef": 1.0,
+        "fog_particle_size": 25,
+        "output_dir": "output/albumentations/0_100/foggy",
+        "randomness_seed": 5
+    }
+}
