@@ -8,3 +8,4 @@ The resulting scores, SPRCSs, and Kendall's tau can be found at the links below.
 - [SPRCCs](rainy_0_100_spearman.json)
 - [Kendall's tau](rainy_0_100_kendall.json)
 - [Qalign scores](rainy_qalign.json)
+- [Images](https://drive.google.com/drive/folders/1oy_aiSvZ8JjGJnJWKNzPPQr2nCgpMlTi?usp=sharing)

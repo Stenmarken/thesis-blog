@@ -8,3 +8,4 @@ The resulting scores, SPRCSs, and Kendall's tau can be found at the links below.
 - [SPRCCs](foggy_0_100_spearman.json)
 - [Kendall's tau](foggy_0_100_kendall.json)
 - [Qalign scores](foggy_qalign.json)
+- [Images](https://drive.google.com/drive/folders/197ZE6O3BmOZEaEx-pr3CzRgk60PyadY_?usp=sharing)
