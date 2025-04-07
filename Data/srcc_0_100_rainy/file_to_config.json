@@ -1,0 +1,1502 @@
+{
+    "0.png": {
+        "droplet_share": 0.0,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 1.0,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "1.png": {
+        "droplet_share": 0.0006060606060606061,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.996969696969697,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "2.png": {
+        "droplet_share": 0.0012121212121212121,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9939393939393939,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "3.png": {
+        "droplet_share": 0.0018181818181818182,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.990909090909091,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "4.png": {
+        "droplet_share": 0.0024242424242424242,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9878787878787879,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "5.png": {
+        "droplet_share": 0.0030303030303030303,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9848484848484849,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "6.png": {
+        "droplet_share": 0.0036363636363636364,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9818181818181818,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "7.png": {
+        "droplet_share": 0.004242424242424242,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9787878787878788,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "8.png": {
+        "droplet_share": 0.0048484848484848485,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9757575757575757,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "9.png": {
+        "droplet_share": 0.005454545454545455,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9727272727272728,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "10.png": {
+        "droplet_share": 0.006060606060606061,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9696969696969697,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "11.png": {
+        "droplet_share": 0.006666666666666666,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9666666666666667,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "12.png": {
+        "droplet_share": 0.007272727272727273,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9636363636363636,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "13.png": {
+        "droplet_share": 0.00787878787878788,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9606060606060606,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "14.png": {
+        "droplet_share": 0.008484848484848484,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9575757575757575,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "15.png": {
+        "droplet_share": 0.00909090909090909,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9545454545454546,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "16.png": {
+        "droplet_share": 0.009696969696969697,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9515151515151515,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "17.png": {
+        "droplet_share": 0.010303030303030303,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9484848484848485,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "18.png": {
+        "droplet_share": 0.01090909090909091,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9454545454545454,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "19.png": {
+        "droplet_share": 0.011515151515151515,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9424242424242424,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "20.png": {
+        "droplet_share": 0.012121212121212121,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9393939393939393,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "21.png": {
+        "droplet_share": 0.012727272727272728,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9363636363636364,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "22.png": {
+        "droplet_share": 0.013333333333333332,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9333333333333333,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "23.png": {
+        "droplet_share": 0.013939393939393939,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9303030303030303,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "24.png": {
+        "droplet_share": 0.014545454545454545,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9272727272727272,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "25.png": {
+        "droplet_share": 0.015151515151515152,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9242424242424242,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "26.png": {
+        "droplet_share": 0.01575757575757576,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9212121212121211,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "27.png": {
+        "droplet_share": 0.016363636363636365,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9181818181818182,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "28.png": {
+        "droplet_share": 0.016969696969696968,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9151515151515152,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "29.png": {
+        "droplet_share": 0.017575757575757574,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9121212121212121,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "30.png": {
+        "droplet_share": 0.01818181818181818,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9090909090909091,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "31.png": {
+        "droplet_share": 0.018787878787878787,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.906060606060606,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "32.png": {
+        "droplet_share": 0.019393939393939394,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9030303030303031,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "33.png": {
+        "droplet_share": 0.02,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.9,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "34.png": {
+        "droplet_share": 0.020606060606060607,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.896969696969697,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "35.png": {
+        "droplet_share": 0.021212121212121213,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8939393939393939,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "36.png": {
+        "droplet_share": 0.02181818181818182,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8909090909090909,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "37.png": {
+        "droplet_share": 0.022424242424242423,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8878787878787878,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "38.png": {
+        "droplet_share": 0.02303030303030303,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8848484848484848,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "39.png": {
+        "droplet_share": 0.023636363636363636,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8818181818181818,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "40.png": {
+        "droplet_share": 0.024242424242424242,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8787878787878788,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "41.png": {
+        "droplet_share": 0.02484848484848485,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8757575757575757,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "42.png": {
+        "droplet_share": 0.025454545454545455,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8727272727272727,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "43.png": {
+        "droplet_share": 0.026060606060606062,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8696969696969696,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "44.png": {
+        "droplet_share": 0.026666666666666665,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8666666666666667,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "45.png": {
+        "droplet_share": 0.02727272727272727,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8636363636363636,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "46.png": {
+        "droplet_share": 0.027878787878787878,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8606060606060606,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "47.png": {
+        "droplet_share": 0.028484848484848484,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8575757575757575,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "48.png": {
+        "droplet_share": 0.02909090909090909,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8545454545454545,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "49.png": {
+        "droplet_share": 0.029696969696969697,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8515151515151516,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "50.png": {
+        "droplet_share": 0.030303030303030304,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8484848484848484,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "51.png": {
+        "droplet_share": 0.03090909090909091,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8454545454545455,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "52.png": {
+        "droplet_share": 0.03151515151515152,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8424242424242424,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "53.png": {
+        "droplet_share": 0.03212121212121212,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8393939393939394,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "54.png": {
+        "droplet_share": 0.03272727272727273,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8363636363636363,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "55.png": {
+        "droplet_share": 0.03333333333333333,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8333333333333333,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "56.png": {
+        "droplet_share": 0.033939393939393936,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8303030303030303,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "57.png": {
+        "droplet_share": 0.034545454545454546,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8272727272727273,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "58.png": {
+        "droplet_share": 0.03515151515151515,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8242424242424242,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "59.png": {
+        "droplet_share": 0.03575757575757576,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8212121212121212,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "60.png": {
+        "droplet_share": 0.03636363636363636,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8181818181818181,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "61.png": {
+        "droplet_share": 0.03696969696969697,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8151515151515152,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "62.png": {
+        "droplet_share": 0.037575757575757575,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8121212121212121,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "63.png": {
+        "droplet_share": 0.038181818181818185,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.8090909090909091,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "64.png": {
+        "droplet_share": 0.03878787878787879,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.806060606060606,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "65.png": {
+        "droplet_share": 0.03939393939393939,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.803030303030303,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "66.png": {
+        "droplet_share": 0.04,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7999999999999999,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "67.png": {
+        "droplet_share": 0.040606060606060604,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7969696969696969,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "68.png": {
+        "droplet_share": 0.041212121212121214,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.793939393939394,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "69.png": {
+        "droplet_share": 0.04181818181818182,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7909090909090909,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "70.png": {
+        "droplet_share": 0.04242424242424243,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7878787878787878,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "71.png": {
+        "droplet_share": 0.04303030303030303,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7848484848484848,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "72.png": {
+        "droplet_share": 0.04363636363636364,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7818181818181817,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "73.png": {
+        "droplet_share": 0.04424242424242424,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7787878787878788,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "74.png": {
+        "droplet_share": 0.044848484848484846,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7757575757575758,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "75.png": {
+        "droplet_share": 0.045454545454545456,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7727272727272727,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "76.png": {
+        "droplet_share": 0.04606060606060606,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7696969696969697,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "77.png": {
+        "droplet_share": 0.04666666666666667,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7666666666666666,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "78.png": {
+        "droplet_share": 0.04727272727272727,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7636363636363637,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "79.png": {
+        "droplet_share": 0.04787878787878788,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7606060606060605,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "80.png": {
+        "droplet_share": 0.048484848484848485,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7575757575757576,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "81.png": {
+        "droplet_share": 0.04909090909090909,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7545454545454545,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "82.png": {
+        "droplet_share": 0.0496969696969697,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7515151515151515,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "83.png": {
+        "droplet_share": 0.0503030303030303,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7484848484848485,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "84.png": {
+        "droplet_share": 0.05090909090909091,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7454545454545454,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "85.png": {
+        "droplet_share": 0.051515151515151514,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7424242424242424,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "86.png": {
+        "droplet_share": 0.052121212121212124,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7393939393939394,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "87.png": {
+        "droplet_share": 0.05272727272727273,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7363636363636363,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "88.png": {
+        "droplet_share": 0.05333333333333333,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7333333333333333,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "89.png": {
+        "droplet_share": 0.05393939393939394,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7303030303030302,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "90.png": {
+        "droplet_share": 0.05454545454545454,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7272727272727273,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "91.png": {
+        "droplet_share": 0.05515151515151515,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7242424242424241,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "92.png": {
+        "droplet_share": 0.055757575757575756,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7212121212121212,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "93.png": {
+        "droplet_share": 0.056363636363636366,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7181818181818181,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "94.png": {
+        "droplet_share": 0.05696969696969697,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7151515151515151,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "95.png": {
+        "droplet_share": 0.05757575757575758,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7121212121212122,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "96.png": {
+        "droplet_share": 0.05818181818181818,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.709090909090909,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "97.png": {
+        "droplet_share": 0.058787878787878785,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.706060606060606,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "98.png": {
+        "droplet_share": 0.059393939393939395,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.703030303030303,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    },
+    "99.png": {
+        "droplet_share": 0.06,
+        "slant": -15,
+        "drop_length": 20,
+        "drop_width": 1,
+        "drop_color": [
+            200,
+            200,
+            200
+        ],
+        "blur_value": 7,
+        "brightness_coefficient": 0.7,
+        "output_dir": "output/albumentations/0_100/rainy",
+        "randomness_seed": 5
+    }
+}

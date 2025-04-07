@@ -17,7 +17,5 @@
 - [Code](Code/code.md)
 - [Related work](Related_work/related_work.md)
 - [Ideas and questions](Ideas/ideas.md)
-
-## Links
-
-[Links](Links.md)
+- [Data](Data/data.md)
+- [Links](Links.md)
