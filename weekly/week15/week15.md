@@ -1,0 +1,7 @@
+### Week 15 - 28 Apr - 2 May
+
+This week I spent running the NR-PCQA and NR-IQA on a subset of images and point clouds from the FGI dataset and REHEARSE dataset respectively. 20 images were used in the distortions, 10 from the Munkkivuori set and 10 from the Otaniemi set. I chose 20 since, with 2 distortion types, this will generate 40 SRCC values which will hopefully be enough to show using the statistical tests that some methods are better than others. I don't want to include too many to avoid long execution times. I then distorted the images with 100 different distortion severities. The exact parameters for those can be found [here](https://drive.google.com/drive/u/0/folders/1McS-kIVWw7NQ6smh4u2QBjWcA15R__D4). The results of the NR-IQA can be found [here](https://drive.google.com/drive/u/0/folders/1a74YyMokHNYu1aRUvsllmRH5E7ee09AR). I didn't do a write-up of the IQA experiments as they were rather uneventful.
+
+For the NR-PCQA. 20 point clouds with clear weather data and 20 point clouds with rain data were selected and all of them from the CARISSMA track. The selection process is performed by taking a random point cloud from the sequences 0-19 and from the sequences 56-75. The randomness seed is 42. This process was done to get a wide variety of scenes in the data. Please see the meta_v2 file in the roadview-rehearse3d-labeled bucket to get the context of each scene.
+
+I then ran MS-PCQE and MM-PCQA on the distorted point clouds and I wrote more about this process [here](../../Code/simulating_color/simulating_color.md)

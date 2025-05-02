@@ -45,8 +45,23 @@ mapping = {
     }
 ```
 
-Now I have to make sure that I'm calculating the SRCC and the KRCC in the correct ways. For MS-PCQE, higher scores mean better scores. The authors don't mention this explicitly in the paper but it's discernible if you look at Figure 1 in the MS-PCQE paper. In the set of point clouds used in the execution, the least distorted point clouds appear first and the most distorted point clouds go last. This means that I want the scores to decrease as I increase the distortion. In other words, I want a **negative** correlation close to -1.
-
 For further use: if you want to use any other than 10 point clouds, then make sure to change the `database/rehearse_data_info/0-20.csv` file because that's the file currently used. When you run `test.py` now it expects that there are 10 point clouds in each directory. It's also the names here that are expected for the directories containing the projected images.
 
+The results of the MS-PCQE can be found in the `ms-pcqe_color_linear.scaling.json` in this [folder](https://drive.google.com/drive/u/0/folders/1e8MvO7jK8PJ_9sKGaI36j7Lfv0ihNnHW).
 
+### Running MM-PCQA
+
+Running MM-PCQA is a bit simpler than running MS-PCQE. 
+
+The one major change I made was to the file `file_conversions.py` which converts point clouds from the .bin format to the .ply format. I used the same lines as before to get the color information, namely:
+
+```
+kitti_pc = np.fromfile(path, dtype=np.float32).reshape(-1, 4)
+intensities = kitti_pc[:, 3]
+intensity_normalized = intensities / 255.0
+colors = np.stack([intensity_normalized, intensity_normalized, intensity_normalized], axis = 1)
+pcd = o3d.geometry.PointCloud()
+pcd.colors = o3d.utilityVector3dVector(colors)
+```
+
+The results of the MM-PCQA can be found in the `mm_pcqa_color_linear_scaling` in this [folder](https://drive.google.com/drive/u/0/folders/1e8MvO7jK8PJ_9sKGaI36j7Lfv0ihNnHW).
