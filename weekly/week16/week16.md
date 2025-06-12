@@ -1,0 +1,3 @@
+## Week 16 - 5-9 May
+
+This week was mostly spent interpreting the results of the NR-PCQA and NR-IQA experiments. This meant calculating SRCC and KRCC values for different subsets of the data, such as location, distortion type, and time of day. I also ran the statistical tests to determine if the differences between the methods were statistically significant. This both meant permutation tests to check that the assignment of the scores are not random and Wilcoxon signed-rank tests to check that the differences between the methods are statistically significant. I also spent some time standardising the code for accessing the data from the experiments, so that it is easier to access the data in the future. 

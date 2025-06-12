@@ -12,6 +12,11 @@
 - [Week 12](weekly/week10/week10.md)
 - [Week 14](weekly/week14/week14.md)
 - [Week 15](weekly/week15/week15.md)
+- [Week 16](weekly/week16/week16.md)
+- [Week 17](weekly/week17/week17.md)
+- [Week 18](weekly/week18/week18.md)
+- [Week 19](weekly/week19/week19.md)
+- [Week 20](weekly/week20/week20.md)
 
 ## Other
 
